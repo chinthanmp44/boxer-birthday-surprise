@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beautiful Memories Together ❤️</title>
+  <link rel="stylesheet" href="boxer-surprise.css" />
+  <link rel="stylesheet" href="gallery.css" />
+</head>
+<body>
+  <div class="lights" aria-hidden="true"></div>
+
+  <canvas id="particles" class="particles" aria-hidden="true"></canvas>
+  <div id="float-hearts" class="float-hearts" aria-hidden="true"></div>
+
+  <main class="gallery-page" role="main">
+    <header class="gallery-hero" aria-label="Memories gallery header">
+      <div class="gallery-hero-inner">
+        <div class="ig-badge" aria-hidden="true">♡ Memory Album • Friendship & Birthday</div>
+        <h1 class="gallery-title">Beautiful Memories Together ❤️</h1>
+        <p class="gallery-sub">Every photo tells a story, every memory lasts forever ✨</p>
+
+        <div class="gallery-meta" aria-live="polite">
+          <span class="counter"><strong id="photoCounter">0</strong> memories</span>
+          <span class="dot">•</span>
+          <span class="hint">Tap any photo to open</span>
+        </div>
+
+        <div class="gallery-actions" aria-label="Gallery actions">
+          <a class="restart-link gallery-back" href="friendship.html" aria-label="Back to friendship page">
+            Back to Friendship ✨
+          </a>
+          <a class="memory-video-btn" href="videos.html" aria-label="Watch Our Memories">
+            Watch Our Memories 🎥
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="masonry" aria-label="Memories photo grid">
+      <!-- Hero image -->
+      <div class="tile tile-hero reveal" data-index="1">
+        <img class="reel-img" src="144boxer.jpg/200boxer.jpg.jpeg" alt="Memory photo 1" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </div>
+
+      <!-- Instagram style tiles (sizes vary via CSS) -->
+      <button class="tile tile-small reveal" data-photo="144boxer.jpg/102boxer.jpg.jpeg" aria-label="Open memory photo 1">
+        <img class="reel-img" src="144boxer.jpg/102boxer.jpg.jpeg" alt="Memory photo 1" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-small reveal" data-photo="144boxer.jpg/22boxer.jpg.jpeg" aria-label="Open memory photo 2">
+        <img class="reel-img" src="144boxer.jpg/22boxer.jpg.jpeg" alt="Memory photo 2" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-medium reveal" data-photo="144boxer.jpg/23boxer.jpg.jpeg" aria-label="Open memory photo 3">
+        <img class="reel-img" src="144boxer.jpg/23boxer.jpg.jpeg" alt="Memory photo 3" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-large reveal" data-photo="144boxer.jpg/24boxer.jpg.jpeg" aria-label="Open memory photo 4">
+        <img class="reel-img" src="144boxer.jpg/24boxer.jpg.jpeg" alt="Memory photo 4" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-small reveal" data-photo="144boxer.jpg/25boxer.jpg.jpeg" aria-label="Open memory photo 5">
+        <img class="reel-img" src="144boxer.jpg/25boxer.jpg.jpeg" alt="Memory photo 5" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-medium reveal" data-photo="144boxer.jpg/26boxer.jpg.jpeg" aria-label="Open memory photo 6">
+        <img class="reel-img" src="144boxer.jpg/26boxer.jpg.jpeg" alt="Memory photo 6" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-wide reveal" data-photo="144boxer.jpg/27boxer.jpg.jpeg" aria-label="Open memory photo 7">
+        <img class="reel-img" src="144boxer.jpg/27boxer.jpg.jpeg" alt="Memory photo 7" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-small reveal" data-photo="144boxer.jpg/28boxer.jpg.jpeg" aria-label="Open memory photo 8">
+        <img class="reel-img" src="144boxer.jpg/28boxer.jpg.jpeg" alt="Memory photo 8" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-medium reveal" data-photo="144boxer.jpg/29boxer.jpg.jpeg" aria-label="Open memory photo 9">
+        <img class="reel-img" src="144boxer.jpg/29boxer.jpg.jpeg" alt="Memory photo 9" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-large reveal" data-photo="144boxer.jpg/30boxer.jpg.jpeg" aria-label="Open memory photo 10">
+        <img class="reel-img" src="144boxer.jpg/30boxer.jpg.jpeg" alt="Memory photo 10" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-small reveal" data-photo="144boxer.jpg/32boxer.jpg.jpeg" aria-label="Open memory photo 11">
+        <img class="reel-img" src="144boxer.jpg/32boxer.jpg.jpeg" alt="Memory photo 11" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-medium reveal" data-photo="144boxer.jpg/33boxer.jpg.jpeg" aria-label="Open memory photo 12">
+        <img class="reel-img" src="144boxer.jpg/33boxer.jpg.jpeg" alt="Memory photo 12" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-wide reveal" data-photo="144boxer.jpg/104boxer.jpg.jpeg" aria-label="Open memory photo 13">
+        <img class="reel-img" src="144boxer.jpg/400boxer.jpg.jpeg" alt="Memory photo 13" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-small reveal" data-photo="144boxer.jpg/105boxer.jpg.jpeg" aria-label="Open memory photo 14">
+        <img class="reel-img" src="144boxer.jpg/105boxer.jpg.jpeg" alt="Memory photo 14" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-medium reveal" data-photo="144boxer.jpg/106boxer.jpg.jpeg" aria-label="Open memory photo 15">
+        <img class="reel-img" src="144boxer.jpg/106boxer.jpg.jpeg" alt="Memory photo 15" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-large reveal" data-photo="144boxer.jpg/100boxer.jpg.jpeg" aria-label="Open memory photo 16">
+        <img class="reel-img" src="144boxer.jpg/100boxer.jpg.jpeg" alt="Memory photo 16" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-large reveal" data-photo="144boxer.jpg/32boxer.jpg.jpeg" aria-label="Open memory photo 16">
+        <img class="reel-img" src="144boxer.jpg/202boxer.jpg.jpeg" alt="Memory photo 16" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-small reveal" data-photo="144boxer.jpg/22boxer.jpg.jpeg" aria-label="Open memory photo 17">
+        <img class="reel-img" src="144boxer.jpg/4boxer.jpg.jpeg" alt="Memory photo 17" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-medium reveal" data-photo="144boxer.jpg/23boxer.jpg.jpeg" aria-label="Open memory photo 18">
+        <img class="reel-img" src="144boxer.jpg/201boxer.jpg.jpeg" alt="Memory photo 18" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-wide reveal" data-photo="144boxer.jpg/24boxer.jpg.jpeg" aria-label="Open memory photo 19">
+        <img class="reel-img" src="144boxer.jpg/300boxer.jpg.jpeg" alt="Memory photo 19" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+
+      <button class="tile tile-small reveal" data-photo="144boxer.jpg/1021boxer.jpg.jpeg" aria-label="Open memory photo 20">
+        <img class="reel-img" src="144boxer.jpg/401boxer.jpg.jpeg" alt="Memory photo 20" loading="lazy" />
+        <div class="tile-overlay glass-overlay" aria-hidden="true"></div>
+      </button>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" aria-hidden="true" role="dialog" aria-label="Photo lightbox">
+      <div class="lightbox-backdrop" data-close="true"></div>
+      <div class="lightbox-panel">
+        <div class="lightbox-toolbar">
+          <span class="lightbox-label">Memory Viewer</span>
+          <button class="lightbox-close" type="button" aria-label="Close lightbox" data-close="true">✕</button>
+        </div>
+        <img class="lightbox-img" src="" alt="Opened memory" />
+      </div>
+    </div>
+  </main>
+
+  <script src="boxer-surprise.js" defer></script>
+  <script src="gallery.js" defer></script>
+</body>
+</html>
+
